@@ -1,0 +1,8 @@
+*
+!*.md
+TODO.md
+!package.json
+!package-lock.json
+!.gitignore
+!assets/
+!assets/*
