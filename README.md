@@ -36,6 +36,7 @@ apm install browser-plus@0.0.98 busy-signal@2.0.1 clipboard-plus@0.5.1 \
 ## Usage
 
 **Photos**
+
 Drop a photo into the editor, and Atom will copy it to the `assets` folder and
 generate the appropriate markdown.
 
