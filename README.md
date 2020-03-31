@@ -43,22 +43,29 @@ generate the appropriate markdown.
 
 Basic hot keys
 
-`ALT`-`CMD`-`t`: Open terminal  
-`CMD`-`p`: Project file search  
-`CMD`-`P`: Command palette (use to add date)  
-`CMD`-`,`: Settings
+
+Command | Action
+:-:|:-:
+`ALT`-`CMD`-`t`| Open terminal
+`CMD`-`p`| Project file search
+`CMD`-`P`| Command palette (use to add date)
+`CMD`-`,`| Settings
 
 Markdown and Pane hot keys
 
-`CTRL`-`SHIFT`-`m`: Markdown preview  
-`CMD`-`K`: Pane toggle  
-`CTRL`-`(`: Git pane  
-`CMD`-`k`,`CMD`-`b`: Toggle tree
+Command | Action
+:-:|:-:
+`CTRL`-`SHIFT`-`m`| Markdown preview
+`CMD`-`K`| Pane toggle
+`CTRL`-`(`| Git pane
+`CMD`-`k`,`CMD`-`b`| Toggle tree
 
 Navigation hot keys
 
-`CTRL`-`l`: Create a ^tag^  
-`CTRL`-`ALT`-`l`: Jump to next ^tag^  
-`CTRL`-`{`: Fold all  
-`OPT`-`CMD`-`]`: Unfold this  
-`OPT`-`CMD`-`}`: Unfold all
+Command | Action
+:-:|:-:
+`CTRL`-`l`| Create a ^tag^  
+`CTRL`-`ALT`-`l`| Jump to next ^tag^  
+`CTRL`-`{`| Fold all  
+`OPT`-`CMD`-`]`| Unfold this  
+`OPT`-`CMD`-`}`| Unfold all
