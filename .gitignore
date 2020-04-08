@@ -6,3 +6,5 @@ TODO.md
 !.gitignore
 !assets/
 !assets/*
+!.atom
+!.atom/*

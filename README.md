@@ -13,7 +13,7 @@ But really, I use this setup for note taking and thinking with [Atom](https://at
 I've kept the actual content out but am sharing my setup for its
 improvement and/or your amusement.
 
-## Setup
+## ⚙️ Setup
 
 I use `asdf` for managing `node` versions.  I run this repo on `v6.3.1` but
 I imagine it works on many others.
@@ -30,20 +30,72 @@ apm install browser-plus@0.0.98 busy-signal@2.0.1 clipboard-plus@0.5.1 \
   linter@2.3.1 linter-markdown@5.2.11 linter-ui-default@1.8.1 \
   markdown-fold@0.3.0 markdown-image-assistant@0.2.2 \
   markdown-preview-enhanced@0.17.7 markdown-toc@0.4.2 prettier-atom@0.58.2 \
-  scroll-marker@0.3.2 tree-view-git-status@1.5.2 wordcount@3.1.0
+  scroll-marker@0.3.2 tree-view-git-status@1.5.2 wordcount@3.1.0 \
+  hyperclick path-hyperclick hyperlink-hyperclick atomic-management
 ```
 
 ## Usage
+**🗄 File structure**
+I use directories for my core interests:
 
-**Photos**
+```
+🛒 ankauf
+🔑 backups
+🧪 biochem
+💼 biz
+🔍 catalog
+📙 cheatsheets
+👪 chronicle
+🚘 drive
+🏠 dwell
+🥙 eat
+🗺 explore
+🇸🇦 faeal
+🐕 fauna
+🇵🇹 fazer
+🎩 floss
+🤠 fort
+👾 hack
+😂 haha
+💡 ideas
+📈 invest
+⚖️ law
+🎧 listen
+👀 look
+🇩🇪 machen
+💾 manuals
+📓 notes
+🌱 plant
+📚 read
+🎙 record
+🇯🇵 suru
+💊 thrive
+🌊 torrent
+📍 ux
+🏺 verkauf
+👝 wallet
+🍿 watch
+⚡️ wire
+✍️ write
+🐼 zuo
+```
 
-Drop a photo into the editor, and Atom will copy it to the `assets` folder and
+NOTE: Using emoji in directories can cause problems for your command line interface.  You have been warned.  But if you are going to go for it and are so foolhardy as to lead with them, you can still sort them alphabetically...
+
+```sh
+ls | sort -k2
+```
+
+Within each of these, I keep a `CHANGELOG.md` and a `TODO.md`.  I sporadically sequester large or antiquated stuff into an `./archive` subdirectory for punting off to an external drive.
+
+**🏙 Images**
+
+Drop an image into the editor, and Atom will copy it to the `assets` folder and
 generate the appropriate markdown.
 
-**Hot Keys**
+**⌨️ Hot Keys**
 
 Basic hot keys
-
 
 Command | Action
 :-:|:-:
@@ -70,3 +122,12 @@ Command | Action
 `CTRL`-`{`| Fold all  
 `OPT`-`CMD`-`]`| Unfold this  
 `OPT`-`CMD`-`}`| Unfold all
+
+**📠 CLI**
+
+I use [fish](https://fishshell.com/) for my CLI and I use the following abbreviation to randomly pick a
+directory when I'm looking for something to do.
+
+```fish
+abbr cdr (find ./ -type d -d 1 | shuf -n 1)
+```
